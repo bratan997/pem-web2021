@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        header {
+            font-size: x-large;
+            text-align: center;
+        }
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 80%;
+        }
+        td, th {
+          border: 2px solid #000000;
+          text-align: left;
+          padding: 5px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+    <head> 
+        <title>FORMULIR PPDB</title>
+        <header><b>FORMULIR PPDB JALUR ZONASI TAHUN 2021</b></header> 
+    </head>
+    <br>
+    <table>
+        <tr>
+            <td>NO</td>
+            <th colspan="2">INFO PENDAFTARAN</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><label for="nisn">NISN : </label></td>
+            <td><input type="number" id="nisn" name="nisn" required=""></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><label for="asalsek">Asal Sekolah : </label></td>
+            <td><input type="text" id="asalsek" name="asalsek" required=""></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><label for="tahunlulus">Tahun Lulus : </label></td>
+            <td><input type="number" id="tahunlulus" name="tahunlulus" required=""></td>
+        </tr>
+        <tr>
+            <th colspan="3">DATA CALON PESERTA</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><label for="namapeserta">Nama Lengkap : </label></td>
+            <td><input type="text" id="namapeserta" name="namapeserta" required=""></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><label for="nik">NIK : </label></td>
+            <td><input type="number" id="nik" name="nik" required=""></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><label for="ttl">Tempat/Tanggal Lahir : </label></td>
+            <td><input type="date" id="ttl" name="ttl" required=""></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><label>Jenis Kelamin : </label></td>
+            <td><input type="radio" id="lakilaki" name="kelamin" value="L" required="">
+                <label for="lakilaki">Laki-Laki</label>
+                <input type="radio" id="perempuan" name="kelamin" value="P" >
+                <label for="perempuan">Perempuan</label><br>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><label for="alamat">Alamat : </label></td> 
+            <td><input type="text" id="alamat" name="alamat" required=""></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><label for="desa">Desa/Kel : </label></td>
+            <td><input type="text" id="desa" name="desa" required=""></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><label for="kec">Kecamatan : </label></td>
+            <td><input type="text" id="kec" name="kec" required=""></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td><label for="kab">Kabupaten/Kota : </label></td>
+            <td><input type="text" id="kab" name="kab" required=""></td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td><label for="Prov">Provinsi : </label></td>
+            <td>
+                <select name="Prov" required="">
+                     <option value="11">
+                         ACEH
+                     </option>
+                     <option value="12">
+                         SUMATERA UTARA
+                     </option>
+                     <option value="13">
+                         SUMATERA BARAT
+                     </option>
+                     <option value="14">
+                         R I A U
+                     </option>
+                     <option value="15">
+                         J A M B I
+                     </option>
+                     <option value="16">
+                         SUMATERA SELATAN
+                     </option>
+                     <option value="17">
+                         BENGKULU
+                     </option>
+                     <option value="18">
+                         LAMPUNG
+                     </option>
+                     <option value="19">
+                         KEPULAUAN BANGKA BELITUNG
+                     </option>
+                     <option value="21">
+                         KEPULAUAN RIAU
+                     </option>
+                     <option value="31">
+                         DKI JAKARTA
+                     </option>
+                     <option value="32">
+                         JAWA BARAT
+                     </option>
+                     <option value="33">
+                         JAWA TENGAH
+                     </option>
+                     <option value="34">
+                         DI YOGYAKARTA
+                     </option>
+                     <option value="35">
+                         JAWA TIMUR
+                     </option>
+                     <option value="36">
+                         B A N T E N
+                     </option>
+                     <option value="51">
+                         BALI
+                     </option>
+                     <option value="52">
+                         NUSA TENGGARA BARAT
+                     </option>
+                     <option value="53">
+                         NUSA TENGGARA TIMUR
+                     </option>
+                     <option value="61">
+                         KALIMANTAN BARAT
+                     </option>
+                     <option value="62">
+                         KALIMANTAN TENGAH
+                     </option>
+                     <option value="63">
+                         KALIMANTAN SELATAN
+                     </option>
+                     <option value="64">
+                         KALIMANTAN TIMUR
+                     </option>
+                     <option value="71">
+                         SULAWESI UTARA
+                     </option>
+                     <option value="73">
+                         SULAWESI SELATAN
+                     </option>
+                     <option value="74">
+                         SULAWESI TENGGARA
+                     </option>
+                     <option value="75">
+                         GORONTALO
+                     </option>
+                     <option value="76">
+                         SULAWESI BARAT
+                     </option>
+                     <option value="81">
+                         MALUKU
+                     </option>
+                     <option value="82">
+                         MALUKU UTARA
+                     </option>
+                     <option value="94">
+                         PAPUA
+                     </option>
+                     <option value="91">
+                         PAPUA BARAT
+                     </option>
+                     <option value="72">
+                         SULAWESI TENGAH
+                     </option>
+                     <option value="65">
+                         KALIMANTAN UTARA
+                     </option>
+                 </select>
+            </td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td><label for="emailpes">Email Peserta : </label></td>
+            <td><input type="email" id="emailpes" name="emailpes" required=""></td>
+        </tr>
+        <th colspan="3">DATA ORANG TUA</th>
+        <tr>
+            <td>14</td>
+            <td><label for="nokk">Nomor Kartu Keluarga : </label></td>
+            <td><input type="number" id="nokk" name="nokk" required=""></td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td><label for="namaayah">Nama Ayah Kandung : </label></td>
+            <td><input type="text" id="namaayah" name="namaayah" required=""></td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td><label for="agamaayah">Agama : </label></td>
+            <td><select name="agamaayah" required="">
+                    <option value="2">
+                        Islam
+                    </option>
+                    <option value="3">
+                        Katolik
+                    </option>
+                    <option value="4">
+                        Kristen
+                    </option>
+                    <option value="5">
+                        Buddha
+                    </option>
+                    <option value="6">
+                        Hindu
+                    </option>
+                    <option value="7">
+                        Kong Hu Cu
+                    </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td><label for="kerja">Pekerjaan : </label></td>
+            <td><input type="text" id="kerja" name="kerja" required=""></td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td><label for="namaibu">Nama Ibu Kandung : </label></td>
+            <td><input type="text" id="namaibu" name="namaibu" required=""></td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td><label for="agamaibu">Agama : </label></td>
+            <td><select name="agamaibu" required="">
+                    <option value="2">
+                        Islam
+                    </option>
+                    <option value="3">
+                        Katolik
+                    </option>
+                    <option value="4">
+                        Kristen
+                    </option>
+                    <option value="5">
+                        Buddha
+                    </option>
+                    <option value="6">
+                        Hindu
+                    </option>
+                    <option value="7">
+                        Kong Hu Cu
+                    </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><label for="kerjaibu">Pekerjaan : </label></td>
+            <td><input type="text" id="kerjaibu" name="kerjaibu" required=""></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td><label for="alamatortu">Alamat : </label></td>
+            <td><input type="text" id="alamatortu" name="alamatortu" required=""></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td><label for="kecortu">Kecamatan : </label></td>
+            <td><input type="text" id="kecortu" name="kecortu" required=""></td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td><label for="kabortu">Kabupaten/Kota : </label></td>
+            <td><input type="text" id="kabortu name="kabortu" required=""></td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td><label for="Provortu">Provinsi : </label></td>
+            <td><select required="">
+                    <option value="11">
+                        ACEH
+                    </option>
+                    <option value="12">
+                        SUMATERA UTARA
+                    </option>
+                    <option value="13">
+                        SUMATERA BARAT
+                    </option>
+                    <option value="14">
+                        R I A U
+                    </option>
+                    <option value="15">
+                        J A M B I
+                    </option>
+                    <option value="16">
+                        SUMATERA SELATAN
+                    </option>
+                    <option value="17">
+                        BENGKULU
+                    </option>
+                    <option value="18">
+                        LAMPUNG
+                    </option>
+                    <option value="19">
+                        KEPULAUAN BANGKA BELITUNG
+                    </option>
+                    <option value="21">
+                        KEPULAUAN RIAU
+                    </option>
+                    <option value="31">
+                        DKI JAKARTA
+                    </option>
+                    <option value="32">
+                        JAWA BARAT
+                    </option>
+                    <option value="33">
+                        JAWA TENGAH
+                    </option>
+                    <option value="34">
+                        DI YOGYAKARTA
+                    </option>
+                    <option value="35">
+                        JAWA TIMUR
+                    </option>
+                    <option value="36">
+                        B A N T E N
+                    </option>
+                    <option value="51">
+                        BALI
+                    </option>
+                    <option value="52">
+                        NUSA TENGGARA BARAT
+                    </option>
+                    <option value="53">
+                        NUSA TENGGARA TIMUR
+                    </option>
+                    <option value="61">
+                        KALIMANTAN BARAT
+                    </option>
+                    <option value="62">
+                        KALIMANTAN TENGAH
+                    </option>
+                    <option value="63">
+                        KALIMANTAN SELATAN
+                    </option>
+                    <option value="64">
+                        KALIMANTAN TIMUR
+                    </option>
+                    <option value="71">
+                        SULAWESI UTARA
+                    </option>
+                    <option value="73">
+                        SULAWESI SELATAN
+                    </option>
+                    <option value="74">
+                        SULAWESI TENGGARA
+                    </option>
+                    <option value="75">
+                        GORONTALO
+                    </option>
+                    <option value="76">
+                        SULAWESI BARAT
+                    </option>
+                    <option value="81">
+                        MALUKU
+                    </option>
+                    <option value="82">
+                        MALUKU UTARA
+                    </option>
+                    <option value="94">
+                        PAPUA
+                    </option>
+                    <option value="91">
+                        PAPUA BARAT
+                    </option>
+                    <option value="72">
+                        SULAWESI TENGAH
+                    </option>
+                    <option value="65">
+                        KALIMANTAN UTARA
+                    </option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Submit"> 
+</html>
