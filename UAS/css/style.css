@@ -1,0 +1,202 @@
+:root{
+    --grey-color: #C4C4C4;
+    --black-color: #000000;
+    --dark-grey-color: #515151;
+    --white-color: #FFFFFF;
+    background-color: #000000;
+} 
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/*HOMEBAR*/
+
+body{
+    margin: 0;
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1134px;
+    top: 20px;
+}
+nav ul {
+    display :flex;
+    align-items: center;
+    gap: 45px;
+    margin:0;
+    list-style: none;
+}
+
+nav ul li a{
+    color:#fff;
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*HEADING*/
+.backgroundimg{
+    background: url(background\ 1.png);
+    position: absolute;
+    width: 1310px;
+    height: 900px;
+    top: 50px;
+    left: 0px;
+    background-repeat: no-repeat;
+}
+.resep-search{
+    position: absolute;
+    left: 450px;
+    top: 233px;
+    color:#FFFFFF;
+}
+
+.resep-search h1{
+    font-family: "Open Sans Hebrew", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.resep-search input[type=text]{
+    width: 453px;
+    height: 38px;
+}   
+
+.resep-search p{
+    font-family: "Roboto";
+    font-size: 13px;
+}
+.resep-search p a{
+    text-decoration: none;
+    color: var(--grey-color);
+}
+section.recent-recipes h3{
+    text-align: center;
+}
+section.recent-recipes{
+    background-color: var(--dark-grey-color);
+    position: absolute;
+    width: 700px;
+    height: auto;
+    left: 40px;
+    top: 695px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.recipes{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display:inline-flex;
+    gap: 10px;
+}
+.recipes img{
+    display: table-row;
+}
+.resepKonten{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: block;
+}
+section.top-voted h3{
+    text-align: center;
+}
+section.top-voted{
+    background-color: var(--dark-grey-color);
+    position: absolute; 
+    width: auto;
+    height: auto;  
+    left: 750px;
+    top: 695px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+section.top-voted a img{
+    object-fit:none;
+}
+
+section.contributor{
+    top: 1600px;
+    color: white;
+    position: absolute;
+    display: inline-flex;
+
+}
+.header-kontri{
+    background-color: var(--black-color);
+    position: absolute;
+    left: 510px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Open Sans Hebrew", sans-serif;
+}
+.kontri{
+    top: 250px;
+    position:relative;
+    background-color: var(--black-color);
+}
+.kontri img{
+    position: absolute;
+    left: 90px;
+    top: -100px;
+    background-color: var(--black-color);
+}
+.kontri a{
+    color: #FFFFFF;
+    text-decoration: none;
+    top: 10px;
+    font-family:'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    position: absolute;
+    top: -20px;
+    left: 105px;
+    background-color: var(--black-color);
+}
+
+.kontri p{
+    text-justify: auto;
+    font-family:'Red Hat Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    gap: 20px;
+}
+
+footer{
+    position: absolute;
+    width: 1310px;
+    height: 65px;
+    left: 0px;
+    top: 2291px;
+    background-color: var(--grey-color);
+    position: relative;
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 25px;
+    }

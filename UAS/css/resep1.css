@@ -1,0 +1,145 @@
+:root{
+    --grey-color: #C4C4C4;
+    --black-color: #000000;
+    --dark-grey-color: #515151;
+    --white-color: #FFFFFF;
+    background-image: url(background.jpg);
+  } 
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  /*HOMEBAR*/
+  
+  body{
+    margin: 0;
+  
+  }
+  nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1134px;
+    top: 20px;
+  }
+  nav ul {
+    display :flex;
+    align-items: center;
+    gap: 45px;
+    margin:0;
+    list-style: none;
+  }
+  
+  nav ul li a{
+    color:#fff;
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  nav input[type=text] {
+    float: right;
+    border: none;
+    margin-top: 8px;
+    margin-right: -72px;
+    font-size: 17px;
+    width: 293px;
+    height: 42px;
+  }
+  
+  .content{
+    position: inherit;
+    width: 1231px;
+    height: 1200px;
+    background: #F2F2F2;
+    border-radius: 33px;
+    margin-left: 25px;
+    margin-top: 125px;
+  }
+  .content h1{
+    position: relative ;
+    left: 5%;
+    top: 5%;
+    text-align: justify;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 41px;
+  }
+  .content img{
+    position: relative;
+    left: 10%;
+    top: 5%;
+    border-radius: 10%;
+    border: 1px solid #000;
+  }
+  .content p{
+    white-space: pre-line;
+    width: 30%;
+    left: -14%;
+    top: 9%;
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: inline-flex;
+  }
+  .content label textarea[id="komen"]{
+    position: relative;
+    top: 12%;
+    left: -25%;
+    width: 30%;
+  }
+  .content input[type="submit"]{
+    position: relative;
+    top: 14%;
+    left: -35%;
+  }
+
+  section.recent-recipes{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    left: 66%;
+    top: 200px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    border: solid 2px;
+    text-align: center;
+}
+.recipes{
+    color: #000;
+    text-decoration: none;
+    margin: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: block;
+    gap: 10px;
+    text-align: justify;
+}
+footer{
+  position: absolute;
+  margin-top: 80px;
+  background-color: var(--grey-color);
+  position: relative;
+  color: #000000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 25px;
+  padding-left: 2%;
+}

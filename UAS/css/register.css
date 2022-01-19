@@ -1,0 +1,127 @@
+:root{
+    --grey-color: #C4C4C4;
+    --black-color: #000000;
+    --dark-grey-color: #515151;
+    --white-color: #FFFFFF;
+    background-image: url(background.jpg);
+  } 
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  /*HOMEBAR*/
+  
+  body{
+    margin: 0;
+  
+  }
+  nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 1134px;
+    top: 20px;
+  }
+  nav ul {
+    display :flex;
+    align-items: center;
+    gap: 45px;
+    margin:0;
+    list-style: none;
+  }
+  
+  nav ul li a{
+    color:#fff;
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .content{
+    width: 430px;
+    height:650px;
+    background: #F2F2F2;
+    border-radius: 33px;
+    position: absolute;
+    left: 10%;
+    top: 22%
+  
+  }
+  
+  .content h1{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 1200;
+    font-size: 45px;
+    text-align: center;  
+  }
+  
+  .container{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    padding: 20px;
+  }
+
+  input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  button {
+    background-color: #00819D;
+    color: white;
+    padding: 14px 20px;
+    margin: 25px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    align-self: center;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  footer{
+    position: absolute;
+    width: 1310px;
+    height: 65px;
+    margin-top: 890px;
+    background-color: var(--grey-color);
+    position: relative;
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 25px;
+    }
